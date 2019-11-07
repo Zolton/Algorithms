@@ -55,8 +55,8 @@ def tribonacci(n):
   theta = numerator/3
   answer = round((theta**n)/goldenRatio)
   return answer
-  
-print(tribonacci(4))
+
+print(tribonacci(500))
 
 
 if __name__ == "__main__":
