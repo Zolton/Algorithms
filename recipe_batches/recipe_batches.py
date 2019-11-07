@@ -13,7 +13,6 @@ def recipe_batches(recipe, ingredients):
   else:
     for i in range(0, len(recipeValues)):
       test = ingredientsValues[i] / recipeValues[i]
-      print("test", test)
       if test > 1:
         count.append(round(test))
   return min(count)
