@@ -3,7 +3,23 @@
 import sys
 
 def rock_paper_scissors(n):
-  pass 
+  possible = ["rock", "paper", "scissors"]
+  count = 0
+  solution = []
+  # if count >= n:
+  #   rock_paper_scissors
+  # else:
+  #   count = count + 1
+  #   for 
+  # for i in range(len(possible)):
+  #   for j in range(len(possible)):
+  #     print("i", [possible[i]])
+  #     print("j", [possible[j]])
+  #     print(i)
+  #     print(j)
+
+
+print(rock_paper_scissors(2))
 
 
 if __name__ == "__main__":
